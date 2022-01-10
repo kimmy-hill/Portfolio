@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9c0e5;
+}
+
+.header {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d9c0e5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #ffffff;
+    background-color: #5b4267;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.header article {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header article ul {
+    list-style-type: none;
+}
+
+.header article ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+    
+}
+
+a {
+    color: #5b4267;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url("IMG_8136.JPG");
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero article {
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #d9c0e5;
+    float: right;
+    margin-top: 110px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 100%;
+}
+
+.flex-container {
+        margin: 50px auto;
+        padding-bottom: 50px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.flex-item-left {
+    flex: 1 12%;
+    margin-right: 20px;
+    width: 33%;
+    min-width: 200px;
+}
+
+.flex-item-left img {
+    max-width: 100%;
+
+}
+
+.flex-item-right {
+   flex: 12;
+   text-align: left;
+   width: 67%;
+   border-left: 3px solid #5b4267;
+   padding-left: 20px;
+}
+
+.flex-item-work {
+    flex: 1 1 auto;
+    text-align: left;
+    width: 67%;
+    display: grid;
+    border-left: 3px solid #5b4267;
+    padding-left: 20px ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    grid-auto-columns: 67%;
+    flex-flow: wrap;
+ }
+
+ .flex-item-work h3 {
+    margin-top: 80px;
+    background-color: #5b4267;
+
+}
+ .flex-item-work p2 {
+    margin-top: 100px;
+    background-color: #5b4267;
+    
+ }
+
+.flex-item-top {
+    flex: 12;
+    text-align: left;
+    background-image: url("IMG_2646.JPG");
+    background-size: cover;
+    border: 3px solid #5b4267;
+    margin-bottom: 2.5%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ }
+ .flex-item-top:hover {
+     opacity: .5;
+ }
+
+ .flex-item-1 {
+    flex: 12;
+    background-image: url("IMG_2912.JPG");
+    background-size: cover;
+    border: 3px solid #5b4267;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ }
+
+ .flex-item-1:hover {
+    opacity: .5;
+}
+
+ .flex-item-2 {
+    flex: 12;
+    text-align: left;
+    background-image: url("IMG_4403.JPG");
+    background-size: cover;
+    border: 3px solid #5b4267;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ }
+ .flex-item-2:hover {
+    opacity: .5;
+}
+
+ .flex-item-3 {
+    flex: 12;
+    text-align: left;
+    background-image: url("IMG_5301.JPG");
+    background-size: cover;
+    border: 3px solid #5b4267;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+ }
+ .flex-item-3:hover {
+    opacity: .5;
+}
+ .flex-item-4 {
+    flex: 12;
+    text-align: left;
+    background-image: url("IMG_4958.jpg");
+    background-size: cover;
+    border: 3px solid #5b4267;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+ }
+ .flex-item-4:hover {
+    opacity: .5;
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+.content article ul {
+    list-style-type: none;
+}
+
+.content article ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
