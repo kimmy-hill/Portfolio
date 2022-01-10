@@ -13,8 +13,10 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-Screenshot of draft:
-<img width="1512" alt="Screen Shot 2022-01-09 at 11 56 56 PM" src="https://user-images.githubusercontent.com/95260935/148720062-ebd753e2-50de-442f-9182-d0cfb977b21d.png">
+
+Screenshot:
+<img width="1512" alt="Screen Shot 2022-01-09 at 11 56 56 PM" src="https://user-images.githubusercontent.com/95260935/148722921-e54db6d4-d88a-40d8-b751-a167279e7a32.png">
+
 
 Deployed Link:
 https://kimmy-hill.github.io/Portfolio/
