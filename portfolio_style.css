@@ -144,7 +144,7 @@ p {
 .flex-item-top {
     flex: 12;
     text-align: left;
-    background-image: url("1209.png");
+    background-image: url("1209.PNG");
     background-size: cover;
     border: 3px solid #5b4267;
     margin-bottom: 2.5%;
