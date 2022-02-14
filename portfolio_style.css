@@ -144,7 +144,7 @@ p {
 .flex-item-work a {
     background-color: #5b4267;
     color: white;
-    display: flex;
+    padding-bottom: 200px;
    
     
  }
