@@ -141,14 +141,6 @@ p {
     
  }
 
-.flex-item-work a {
-    background-color: #5b4267;
-    color: white;
-    flex-flow: wrap;
-   
-    
- }
-
 .flex-item-top {
     flex: 12;
     text-align: left;
